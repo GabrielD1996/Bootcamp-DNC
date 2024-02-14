@@ -1,0 +1,50 @@
+
+
+#principal{
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #bababa ;
+
+}
+#principal button{
+    margin-right:  5%;
+
+    background-color: #0C70F2;
+    border: 0px;
+    width: 80px;
+    height: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    box-shadow: 3px 2px 4px   rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+
+}
+body{
+    margin: 0px;
+    padding: 0px; 
+
+}
+#principal div a{ 
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif; 
+}
+    #principal div a:hover{
+        color:#cccccc;
+    }
+#menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    margin-left: 5%;
+
+}
